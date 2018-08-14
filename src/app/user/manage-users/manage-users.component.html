@@ -1,0 +1,47 @@
+<app-self-details></app-self-details>
+<div class="col-lg-12">
+  <button class="float-right btn btn-primary" (click)="addUser()" routerLink="/addUser">Add user</button>
+</div>
+<div class="col-lg-12"><span>Please use below grid to manage users:</span></div>
+<app-grid-top (pageSizeChanged)="onChangePageSize($event)"></app-grid-top>
+<div class="col-lg-12 col-md-12 col-sm-12 clearfix">
+  <div class="table-responsive">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+              <th>User ID</th>
+              <th>User Name</th>
+              <th colspan="2">e-mail</th>
+              <th>Date Created</th>
+              <th>Is Reset Requested</th>
+              <th>Approve Request</th>
+              <th>Is Admin</th>
+              <th>Is Active</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of currentPageUsers">
+              <td>{{user.userId}}</td>
+              <td>{{user.userName}}</td>
+              <td colspan="2">{{user.userEmail}}</td>
+              <td>{{user.dateCreated}}</td>
+              <td><input type="checkbox" [checked]="user.isResetRequested"></td>
+              <td><input type="checkbox" [checked]="user.approveRequest"></td>
+              <td><input type="checkbox" [checked]="user.isAdmin"></td>
+              <td><input type="checkbox" [checked]="user.isActive"></td>
+              <td>
+                <button class="btn btn-primary">Save</button>&nbsp;
+                <button class="btn btn-primary">Cancel</button>
+              </td>
+            </tr>
+          </tbody>
+    </table>
+  </div>
+
+</div>
+<app-grid-bottom
+  [pageSpecificData]="pageSpecificUsers"
+  [currentDataLength]="currentPageUsers.length" 
+  [totalDataLength]="users.length">
+</app-grid-bottom>

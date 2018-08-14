@@ -1,0 +1,11 @@
+@media (max-width: 1645px) {
+    table {
+        font-size: 80%;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    table {
+        font-size: 75%;
+    }
+  }

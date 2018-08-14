@@ -1,0 +1,14 @@
+.box {
+    width: 100%;
+    height: auto;
+    border: 3px solid rgba(0,0,0, 0.1);
+    padding: 25px;
+}
+
+.col-lg-6 > button {
+    margin-left: 40px;
+}
+
+.align-center {
+    margin: 20px 0px;
+}

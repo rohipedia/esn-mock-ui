@@ -1,0 +1,6 @@
+<app-self-details></app-self-details>
+<ng-template [ngIf]="isAdmin">
+  <app-admin-panel [data]="dashboardData"></app-admin-panel>
+</ng-template>
+<app-claim-esn-input [data]="dashboardData.deviceData"></app-claim-esn-input>
+<app-esn-grid [data]="dashboardData.data"></app-esn-grid>

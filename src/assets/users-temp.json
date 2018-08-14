@@ -1,0 +1,58 @@
+[
+    {
+        "userId": 1,
+        "userName": "admin",
+        "userEmail": "admin@admin.com",
+        "password": "admin",
+        "isAdmin": true,
+        "isActive": null,
+        "dateCreated": 1532353901000,
+        "isResetRequested": null,
+        "approveResetRequest": null,
+        "lastLogin": null,
+        "esnInfo": null,
+        "userClaimed": null
+    },
+    {
+        "userId": 2,
+        "userName": "tejas",
+        "userEmail": "tejas@gmail.com",
+        "password": "tejas@123",
+        "isAdmin": false,
+        "isActive": null,
+        "dateCreated": 1532353901000,
+        "isResetRequested": null,
+        "approveResetRequest": null,
+        "lastLogin": null,
+        "esnInfo": null,
+        "userClaimed": null
+    },
+    {
+        "userId": 3,
+        "userName": "vijay",
+        "userEmail": "vijay@gmail.com",
+        "password": "vijay@123",
+        "isAdmin": false,
+        "isActive": null,
+        "dateCreated": 1532353902000,
+        "isResetRequested": null,
+        "approveResetRequest": null,
+        "lastLogin": null,
+        "esnInfo": null,
+        "userClaimed": null
+    },
+    {
+        "userId": 4,
+        "userName": "nishant",
+        "userEmail": "nishant@gmail.com",
+        "password": "nishant@123",
+        "isAdmin": false,
+        "isActive": null,
+        "dateCreated": 1532353902000,
+        "isResetRequested": null,
+        "approveResetRequest": null,
+        "lastLogin": null,
+        "esnInfo": null,
+        "userClaimed": null
+    }
+]

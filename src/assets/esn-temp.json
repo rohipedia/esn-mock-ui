@@ -1,0 +1,487 @@
+{
+    "successIndicator": "tblESNInfo Data fetched successfully",
+    "timestamp": 1532531951690,
+    "dataObj": {
+        "totalclaimedESNs": 0,
+        "validESNs": 0,
+        "totalAvailableValidESNs": 6,
+        "deviceData": [
+            {
+                "bridgeSKUId": 1,
+                "sku": "190198459589",
+                "device": "Apple iphone x 64 GB Silver"
+            },
+            {
+                "bridgeSKUId": 2,
+                "sku": "SPHG93532BK1",
+                "device": "SAM G935 32GB BK XCVR SGL"
+            },
+            {
+                "bridgeSKUId": 3,
+                "sku": "IPHX64GBSIL1",
+                "device": "iphonex"
+            }
+        ],
+        "data": [
+            {
+                "sku": {
+                    "bridgeSKUId": 1,
+                    "sku": "190198459589",
+                    "device": "Apple_iphone_x_64_GB_Silver"
+                },
+                "esnInfoId": 1,
+                "storeId": 1418,
+                "esn18": 35202806249139,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 9,
+                "storeId": 1418,
+                "esn18": 35899107584189,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 17,
+                "storeId": 1418,
+                "esn18": 35958907227684,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 1,
+                    "sku": "190198459589",
+                    "device": "Apple_iphone_x_64_GB_Silver"
+                },
+                "esnInfoId": 4,
+                "storeId": 1418,
+                "esn18": 35203206072377,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": false,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 12,
+                "storeId": 1418,
+                "esn18": 35899107863246,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 3,
+                    "sku": "IPHX64GBSIL1",
+                    "device": "iphonex"
+                },
+                "esnInfoId": 20,
+                "storeId": 1418,
+                "esn18": 35670008127653,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+               "consumed": false,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 7,
+                "storeId": 1418,
+                "esn18": 35899107639998,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 15,
+                "storeId": 1418,
+                "esn18": 35958907229858,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 3,
+                    "sku": "IPHX64GBSIL1",
+                    "device": "iphonex"
+                },
+                "esnInfoId": 23,
+                "storeId": 1418,
+                "esn18": 35670008130682,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": false,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 1,
+                    "sku": "190198459589",
+                    "device": "Apple_iphone_x_64_GB_Silver"
+                },
+                "esnInfoId": 2,
+                "storeId": 1418,
+                "esn18": 35203206123573,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 10,
+                "storeId": 1418,
+                "esn18": 35899107650135,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 18,
+                "storeId": 1418,
+                "esn18": 35958907227772,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 5,
+                "storeId": 1418,
+                "esn18": 35899107645411,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 13,
+                "storeId": 1418,
+                "esn18": 35899107857848,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 3,
+                    "sku": "IPHX64GBSIL1",
+                    "device": "iphonex"
+                },
+                "esnInfoId": 21,
+                "storeId": 1418,
+                "esn18": 35670008127731,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": false,
+                "userRequestValidation": null
+           },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 8,
+                "storeId": 1418,
+                "esn18": 35899107646480,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 16,
+                "storeId": 1418,
+                "esn18": 35958907225397,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 3,
+                    "sku": "IPHX64GBSIL1",
+                    "device": "iphonex"
+                },
+                "esnInfoId": 24,
+                "storeId": 1418,
+                "esn18": 35576407200823,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 1,
+                    "sku": "190198459589",
+                    "device": "Apple_iphone_x_64_GB_Silver"
+                },
+                "esnInfoId": 3,
+                "storeId": 1418,
+                "esn18": 35203206140128,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": false,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 11,
+                "storeId": 1418,
+                "esn18": 35899107663236,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 19,
+                "storeId": 1418,
+                "esn18": 35958907225434,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 6,
+                "storeId": 1418,
+                "esn18": 35899107645419,
+                "esnHEX14": 0,
+               "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354107000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 2,
+                    "sku": "SPHG93532BK1",
+                    "device": "SAM G935 32GB BK XCVR SGL"
+                },
+                "esnInfoId": 14,
+                "storeId": 1418,
+                "esn18": 35958907229861,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": true,
+                "userRequestValidation": null
+            },
+            {
+                "sku": {
+                    "bridgeSKUId": 3,
+                    "sku": "IPHX64GBSIL1",
+                    "device": "iphonex"
+                },
+                "esnInfoId": 22,
+                "storeId": 1418,
+                "esn18": 35670008130653,
+                "esnHEX14": 0,
+                "imei15": 0,
+                "dateRequestedValidation": null,
+                "dateClaimed": null,
+                "dateImported": 1532354108000,
+                "userClaimed": null,
+                "imported": true,
+                "consumed": false,
+                "userRequestValidation": null
+            }
+        ],
+        "totalESNLastPulled": 17,
+        "esnLastValidated": 1532430372000,
+        "esnLastImported": 1532354108000
+    }
+}

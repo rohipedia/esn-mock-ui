@@ -1,0 +1,36 @@
+
+<nav aria-label="ESN pagination">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link"        
+        (click)="changePage(0)"
+        >First
+      </a>
+    </li>
+    <li class="page-item" [ngClass]="{'disabled': (currentPageNumber) === 0}">
+      <a class="page-link"        
+        (click)="changePage(currentPageNumber - 1)"
+        >Previous
+      </a>
+    </li>
+    <li class="page-item" *ngFor="let pageNumber of pageSpecificData; let i = index;"
+      [ngClass]="{'active' : i === currentPageNumber}">
+      <a class="page-link"
+        (click)="changePage(i)"
+        >{{i + 1}}
+      </a>
+    </li>
+    <li class="page-item" [ngClass]="{'disabled': (currentPageNumber + 1) === pageSpecificData.length}">
+      <a class="page-link"        
+        (click)="changePage(currentPageNumber + 1)"        
+        >Next
+      </a>
+    </li>
+    <li class="page-item">
+        <a class="page-link"        
+          (click)="changePage(pageSpecificData.length - 1)"
+          >Last
+        </a>
+      </li>
+  </ul>
+</nav>

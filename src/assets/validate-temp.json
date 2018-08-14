@@ -1,0 +1,55 @@
+{
+    "successIndicator": "Validate job completed successfully",
+    "timestamp": 1532430371648,
+    "dataObj": null,
+    "dataList": [
+        {
+            "userForActivity": {
+                "userId": 1,
+                "userName": "admin",
+                "userEmail": "admin@admin.com",
+                "password": "admin",
+                "isAdmin": true,
+                "isActive": null,
+                "dateCreated": 1532353901000,
+                "isResetRequested": null,
+                "approveResetRequest": null,
+                "lastLogin": null,
+                "esnInfo": null,
+                "userClaimed": null
+            },
+            "validationJobId": 1,
+            "dateForActivity": 1532354160000,
+            "state": {
+                "batchStateId": 3,
+                "state": "Successful"
+            },
+            "totalEsnValidated": 100,
+            "validEsnCount": 50
+        },
+        {
+            "userForActivity": {
+                "userId": 1,
+                "userName": "admin",
+                "userEmail": "admin@admin.com",
+                "password": "admin",
+                "isAdmin": true,
+                "isActive": null,
+                "dateCreated": 1532353901000,
+                "isResetRequested": null,
+                "approveResetRequest": null,
+                "lastLogin": null,
+                "esnInfo": null,
+                "userClaimed": null
+            },
+            "validationJobId": 2,
+            "dateForActivity": 1532430371591,
+            "state": {
+                "batchStateId": 3,
+                "state": "Successful"
+            },
+            "totalEsnValidated": 24,
+            "validEsnCount": 6
+        }
+    ]
+}

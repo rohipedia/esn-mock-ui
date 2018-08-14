@@ -1,0 +1,35 @@
+<div class="col-lg-12 col-md-12 col-sm-12">
+  <span>Below table displays the past records for ESN validation</span>
+</div>
+<app-grid-top (pageSizeChanged)="onChangePageSize($event)"></app-grid-top>
+<div class="col-lg-12 col-md-12 col-sm-12 clearfix">
+  <div class="table-responsive">
+    <table class="table table-striped ">
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>ESN Validating User</th>
+          <th>State</th>
+          <th>Date Validating</th>
+          <th>TotalESNValidated</th>
+          <th>ValidESNNo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let esn of currentPageEsns">
+          <td>{{ esn.validationJobId }}</td>
+          <td>{{ esn.userForActivity.userName }}</td>
+          <td>{{ esn.state.state }}</td>
+          <td>{{ esn.dateForActivity | date }}</td>
+          <td>{{ esn.totalEsnValidated }}</td>
+          <td>{{ esn.validEsnCount }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<app-grid-bottom 
+  [pageSpecificData]="pageSpecificEsns"
+  [currentDataLength]="currentPageEsns.length" 
+  [totalDataLength]="esns.length">
+</app-grid-bottom>

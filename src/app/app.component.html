@@ -1,0 +1,20 @@
+<app-header></app-header>
+<app-notifications [message]=""></app-notifications>
+<div class="row">
+    <div *ngIf="showLeftMenu" class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+        <div class="container left-menu">
+            <button class="btn btn-primary btn-block" (click)="navigateBack()">
+                <i class="fa fa-lg fa-arrow-left" aria-hidden="true"></i>&nbsp;Back
+            </button>
+        </div>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

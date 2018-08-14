@@ -1,0 +1,46 @@
+<app-grid-top (pageSizeChanged)="onChangePageSize($event)"></app-grid-top>
+<div class="col-lg-12 col-md-12 col-sm-12 clearfix">
+  <div class="table-responsive">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+              <th>Store</th>
+              <th>SKU</th>
+              <th>ESN_18</th>
+              <th>ESN_HEX_14</th>
+              <th>IMEI_15</th>
+              <th>Device</th>
+              <th *ngIf="isAdmin">Claimed By</th>
+              <th>Claimed Date</th> 
+              <th *ngIf="isAdmin">Is Imported</th>
+              <th *ngIf="isAdmin">Date Imported</th>
+              <th>Is Consumed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let esn of currentPageEsns">
+              <td>{{ esn.storeId }}</td>
+              <td>{{ esn.sku.sku }}</td>
+              <td>{{ esn.esn18 }}</td>
+              <td>{{ esn.esnHEX14 }}</td>
+              <td>{{ esn.imei15 }}</td>
+              <td>{{ esn.sku.device }}</td>
+              <td *ngIf="isAdmin">
+                <span *ngIf="esn.userClaimed !== null"> {{ esn.userClaimed.userName }}</span>
+                <span *ngIf="esn.userClaimed === null"> - </span>
+              </td>
+              <td></td>
+              <td *ngIf="isAdmin"><input type="checkbox" [checked]="esn.imported"></td>
+              <td *ngIf="isAdmin">{{ esn.dateImported | date }}</td>
+              <td><input type="checkbox" [checked]="esn.consumed"></td>
+            </tr>
+          </tbody>
+    </table>
+  </div>
+
+</div>
+<app-grid-bottom 
+  [pageSpecificData]="pageSpecificEsns"
+  [currentDataLength]="currentPageEsns.length" 
+  [totalDataLength]="esnData.length">
+</app-grid-bottom>

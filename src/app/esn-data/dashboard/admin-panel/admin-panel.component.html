@@ -1,0 +1,41 @@
+<div class=" col-md-12 col-sm-12">
+  <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-9 col-xs-12">
+      <app-piechart [pieData]="data"></app-piechart>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-9 col-xs-12">
+      <div class="esn-details">
+        <label>ESN last imported on</label>
+        <span>: {{ data.esnLastImported | date: 'dd/MM/yyyy' }}</span>
+      </div>
+      <div class="esn-details">
+        <label>ESN last validated on</label>
+        <span>: {{ data.esnLastValidated | date: 'dd/MM/yyyy' }}</span>
+      </div>
+      <div class="esn-details">
+        <label>Number of ESNs last pulled</label>
+        <span>: {{ data.totalESNLastPulled }}</span>
+      </div>
+      <div class="esn-details">
+        <label>Available Valid ESN</label>
+        <span>: {{ data.totalAvailableValidESNs }}</span>
+      </div>
+      <div class="esn-details">
+        <label>Minimum ESN threshold</label>
+        <span>: {{ data.totalclaimedESNs }}</span>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-2 col-sm-12 col-xs-12 action-buttons">
+      <div>
+        <button class="btn btn-primary btn-block" (click)="manageUsers()">Manage Users</button>
+      </div>
+      <div>
+        <button class="btn btn-primary btn-block" (click)="import()">Import ESNs</button>
+      </div>
+      <div>
+        <button class="btn btn-primary btn-block" (click)="validateEsns()">Validate ESNs</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
